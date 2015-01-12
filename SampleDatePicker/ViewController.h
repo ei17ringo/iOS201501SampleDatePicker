@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *myLabel;
+
+@property (weak, nonatomic) IBOutlet UIDatePicker *myDatePicker;
+
+- (IBAction)changeDateTime:(id)sender;
+
 
 @end
 
